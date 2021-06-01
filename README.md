@@ -1,6 +1,7 @@
 # Temporizador con salia de 220v
 Temporizador con TRIAC y salida 220v
-Como siempre, cosas que rugen de la necesidad.
+
+Como siempre, cosas que surgen de la necesidad.
 El antecedente, un temporizador electromecanico para enchufe que brillaba por su falta de exactitud.
 Atraso de unos 25 minutos por hora programada.
 
