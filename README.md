@@ -21,6 +21,6 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 
 
 
-Test del temperizador original:
+**Test del temperizador original:**
 
-![](./images/test_temporizador_original.jpg)
+![](./images/test_temporizador_original_pq.jpg)
