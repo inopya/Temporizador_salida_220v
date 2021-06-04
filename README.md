@@ -58,9 +58,10 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 - 1x Arduino NANO
 - 1x Fuente alimentacion AC 220v - DC 5v (un viejo cargador de movil)
 - 1x optoacoplador MOC3041 
+- 1x TRIAC BT137
 - 1x resistencia 470 Ohm
 - 1x resistencia 510 Ohm
-- 1x resistencia 1 KOhm
+- 1x resistencia 1 K
 - 1x led rojo (reusado el original del temporizador canibalizado)
 - 1x pantalla OLED 128x64
 - cables, soldador...
