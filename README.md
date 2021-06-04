@@ -78,6 +78,6 @@ En cualquier caso no supone ningun problema para Arduino el hecho de funcionar p
 
 
 **NOTA2**
-Puede haber pequeñas diferencias entre las imagenes mostradas y el aspecto visual de los menus que genera el firmware de este repositorio, debido dichas fotografias han sido tomadas durante el proceso de ajuste del software.
+Puede haber pequeñas diferencias entre las imagenes mostradas y el aspecto visual de los menus que genera el firmware de este repositorio, debido a que dichas fotografias fueron tomadas durante el proceso de montaje hardware y ajuste del software.
 
 
