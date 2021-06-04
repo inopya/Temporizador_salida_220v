@@ -1,10 +1,11 @@
 # Temporizador con desconexion y salia a TRIAC para 220v
 
 
+** Montaje final**
 
-![](./images/first_run.jpg)
+![](./images/first_run.jpg)  ![](./images/first_theend.jpg)  ![](./images/timer_off.jpg)  
 
--montaje final
+
 
 
 Como siempre, cosas que surgen de la necesidad.
