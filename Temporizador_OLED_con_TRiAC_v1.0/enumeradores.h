@@ -14,9 +14,9 @@ enum tipoPulsacion
 /* ENUM OPERATION MODE */
 enum  modo_operacion
 {
-  OP_MODE_CLOCK      =  1,   // Encendido y contando tiempo 
-  OP_MODE_TIMER      =  2,   // modo principal y mas util, temporizador para desconexion
-  OP_MODE_SELECT     =  3,   // sin modo, esperando seleccion por parte del usuario
+  OP_MODE_CLOCK,      // Encendido y contando tiempo 
+  OP_MODE_TIMER,      // modo principal y mas util, temporizador para desconexion
+  OP_MODE_SELECT,     // sin modo, esperando seleccion por parte del usuario
 };
 
 
@@ -24,21 +24,19 @@ enum  modo_operacion
 /* ENUM ESTADOS MAQUINA */
 enum estados_maquina
 {
-  MQ_RESTART          =   1,   //  estado tras reinicio/restablecimiento de corriente
-  MQ_PAUSE            =   2,   //  muestra mensaje de pausa/espera
-  MQ_MODIFY_PROG      =   3,   //  entra en modo modificar programacion
-  MQ_SELECT_SCREEN    =   4,   //  entra en pantalla apra elegir modo RELOJ/TEMPORIZADOR
-  MQ_WAIT_RESET       =   5,   //  espera para reinicio/nueva ejecucion
+  MQ_RESTART,         //  estado tras reinicio/restablecimiento de corriente
+  MQ_PAUSE,           //  muestra mensaje de pausa/espera
+  MQ_MODIFY_PROG,     //  entra en modo modificar programacion
+  MQ_SELECT_SCREEN,   //  entra en pantalla apra elegir modo RELOJ/TEMPORIZADOR
+  MQ_WAIT_RESET,      //  espera para reinicio/nueva ejecucion
 
-  MQ_MODIFY_HOUR      =  10,   //  modificando horas
-  MQ_MODIFY_MINUTE    =  11,   //  modificando minutos
+  MQ_MODIFY_HOUR,     //  modificando horas
+  MQ_MODIFY_MINUTE,   //  modificando minutos
    
-  MQ_START_TIMER      =  20,   //  inicio de funcionamiento (carga de tiempos en los contadores)
-  MQ_RUNNIG           =  21,   //  estado de ejecucion de tarea (reloj/timer)
-  MQ_STOP             =  22,   //  fin de tarea
-  MQ_CLOCK            =  23,   //  modo reloj (modo manual)
+  MQ_START_TIMER,     //  inicio de funcionamiento (carga de tiempos en los contadores)
+  MQ_RUNNIG,          //  estado de ejecucion de tarea (reloj/timer)
+  MQ_STOP,            //  fin de tarea
+  MQ_CLOCK,           //  modo reloj (modo manual)
   
-  MQ_TEST             =  30,   //  modo test (sin uso)
-  
-      
+  MQ_TEST,            //  modo test (sin uso)  
 };
