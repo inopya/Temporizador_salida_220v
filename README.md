@@ -33,8 +33,12 @@ Debido al limitado espacio disponible, se sustituye el arduino UNO de la version
 La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se sustituye por una pequeña pantalla OLED de 128x64 pixeles, que la verdad sea dicha, nos permite una mayor cantidad de informacion. Eso sí, tambien es comunicacion I2C y hay que tener en cuenta que su escritura y refresco necesita algo ams de 40 ms (una autentica eternidad). Debemos colocar tambien en su interior la fuente de alimentacion para Arduino NANO, en este caso reaprovechando un viejo cargador de movil.
 
 
+**vista del interior**
+
 ![](./images/inside.jpg)
 
-- vista del interior
 
+
+**Esquema de montaje**
+(en proceso)
 
