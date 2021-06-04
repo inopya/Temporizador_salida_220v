@@ -49,8 +49,9 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 **Probando menus y aspecto visual**
 
 ![](./images/modo_prog.jpg)  ![](./images/modo_run.jpg)
-En la imagen de la izquierda programando tiempos. 
-Imagen derecha, temporizador en modo run, mostrando temporizaciony barra de duracion de tarea.
+
+En la imagen de la izquierda, programando tiempos. 
+Imagen derecha, temporizador en modo ejecucion, mostrando temporizacion y barra de progreso de tarea.
 
 
 ## Lista de materiales
