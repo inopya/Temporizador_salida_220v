@@ -36,7 +36,7 @@ En este caso, y debido a que se va a destinar exclusivamente a ser un temporizad
 Así que disponer de este temporizador electromecanico, inutil a todas luces, era una oportunidad de oro para canibalizarlo y crear de un temporizador mendianamente preciso y con una aspecto fisico compacto y nada aparatoso. (¿mejorable?, por supuesto).
 
 Debido al limitado espacio disponible, se sustituye el arduino UNO de la version original por un NANO.
-La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se sustituye por una pequeña pantalla OLED de 128x64 pixeles, que la verdad sea dicha, nos permite una mayor cantidad de informacion. Eso sí, tambien es comunicacion I2C y hay que tener en cuenta que su escritura y refresco necesita algo ams de 40 ms (una autentica eternidad). Debemos colocar tambien en su interior la fuente de alimentacion para Arduino NANO, en este caso reaprovechando un viejo cargador de movil.
+La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se sustituye por una pequeña pantalla OLED de 128x64 pixeles, que la verdad sea dicha, nos permite una mayor cantidad de informacion. Eso sí, tambien es comunicacion I2C y hay que tener en cuenta que su escritura y refresco necesita algo mas de 40 ms (una autentica eternidad). Debemos colocar tambien en su interior la fuente de alimentacion para Arduino NANO, en este caso reaprovechando un viejo cargador de movil.
 
 
 **vista del interior**
@@ -63,6 +63,6 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 **NOTA**
 Durante su funcionamiento el temporizador muestra en pantalla el voltaje de alimentacion de Arduino.
 Es un detalle heredado de la version original multiproposito que dispone de la opcion de funcionar con bateria interna y en el que conocer el estado de esta es de interes.
-Dado que no supone un problema ni de memoria ni de rendimiento ni de hardware extra, se ha conservado dicha funcionalidad.
+Dado que no supone un problema ni de memoria ni de rendimiento (ni siquiera de hardware extra), se ha conservado dicha funcionalidad.
 Así mismo se puede apreciar en algunas fotos que el voltaje que muestra es muy proximo a 5 voltios (en las pruebas mientras arduino esta conectado por USB al ordenador) y en cambio en el montaje final la alimentacion que se muestra ronda los 4.10v. Esto es debido a que es la tension que se consigue con el viejo cargador de movil utilizado.
 En cualquier caso no supone ningun problema para Arduino el hecho de funcionar por debajo de los 5 voltios
