@@ -27,6 +27,12 @@ A pesar de no tener RTC contaba con una precision aceptable, aproximadamente un 
 En este caso, y debido a que se va a destinar exclusivamente a ser un temporizador, se usa Timer1 que al ser de 16 bits permite sobradamente realizar el conteo necesario de una sola vez y evita tener que disponer de un contador secundario como el caso de Timer2 (Ademas facilita mucho los ajustes de temporizacion).
 
 
+**Probando menus y aspecto visual**
+
+![](./images/modo_prog.jpg)  ![](./images/modo_run.jpg)
+
+
+
 Así que disponer de este temporizador electromecanico, inutil a todas luces, era una oportunidad de oro para canibalizarlo y crear de un temporizador mendianamente preciso y con una aspecto fisico compacto y nada aparatoso. (¿mejorable?, por supuesto).
 
 Debido al limitado espacio disponible, se sustituye el arduino UNO de la version original por un NANO.
