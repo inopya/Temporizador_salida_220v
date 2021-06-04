@@ -66,8 +66,13 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 - 1x pantalla OLED 128x64
 - cables, soldador...
 
+
+
+
 ## Esquema de montaje
 (---- en proceso ----)
+
+
 
 
 **NOTA1**
