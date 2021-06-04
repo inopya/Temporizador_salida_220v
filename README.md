@@ -53,7 +53,7 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 ![](./images/inside.jpg)
 
 
-# Lista de materiales
+## Lista de materiales
 
 - 1x Arduino NANO
 - 1x Fuente alimentacion AC 220v - DC 5v (un viejo cargador de movil)
@@ -65,8 +65,8 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 - 1x pantalla OLED 128x64
 - cables, soldador...
 
-**Esquema de montaje**
-(en proceso)
+## Esquema de montaje
+(---- en proceso ----)
 
 
 **NOTA1**
