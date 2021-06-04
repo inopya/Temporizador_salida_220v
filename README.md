@@ -1,6 +1,10 @@
 # Temporizador con salia de 220v
 Temporizador con TRIAC y salida 220v
 
+
+![](./images/first_run.jpg)
+- montaje final
+
 Como siempre, cosas que surgen de la necesidad.
 El antecedente, un temporizador electromecanico para enchufe que brillaba por su falta de exactitud.
 Atraso de unos 25 minutos por hora programada.
@@ -23,4 +27,4 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 
 **Test del temperizador original:**
 
-![](./images/test_temporizador_original_pq.jpg)
+![](./images/test_temp_original.jpg)
