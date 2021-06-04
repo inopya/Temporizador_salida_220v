@@ -3,7 +3,7 @@
 
 
 ![](./images/first_run.jpg)
---montaje final
+-montaje final
 
 Como siempre, cosas que surgen de la necesidad.
 El antecedente, un temporizador electromecanico para enchufe que brillaba por su falta de exactitud.
