@@ -59,3 +59,10 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 **Esquema de montaje**
 (en proceso)
 
+
+**NOTA**
+Durante su funcionamiento el temporizador muestra en pantalla el voltaje de alimentacion de Arduino.
+Es un detalle heredado de la version original multiproposito que dispone de la opcion de funcionar con bateria interna y en el que conocer el estado de esta es de interes.
+Dado que no supone un problema ni de memoria ni de rendimiento ni de hardware extra, se ha conservado dicha funcionalidad.
+Así mismo se puede apreciar en algunas fotos que el voltaje que muestra es muy proximo a 5 voltios (en las pruebas mientras arduino esta conectado por USB al ordenador) y en cambio en el montaje final la alimentacion que se muestra ronda los 4.10v. Esto es debido a que es la tension que se consigue con el viejo cargador de movil utilizado.
+En cualquier caso no supone ningun problema para Arduino el hecho de funcionar por debajo de los 5 voltios
