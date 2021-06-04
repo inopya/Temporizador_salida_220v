@@ -71,7 +71,10 @@ Imagen derecha, temporizador en modo ejecucion, mostrando temporizacion y barra 
 
 
 ## Esquema de montaje
-(---- en proceso ----)
+
+![](./images/esquema.png)
+
+![](./images/moc_triac.png)
 
 
 
