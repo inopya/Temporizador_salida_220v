@@ -1,9 +1,9 @@
-# Temporizador con salia de 220v
-Temporizador con TRIAC y salida 220v
+# Temporizador con desconexion y salia a TRIAC para 220v
+
 
 
 ![](./images/first_run.jpg)
-- montaje final
+--montaje final
 
 Como siempre, cosas que surgen de la necesidad.
 El antecedente, un temporizador electromecanico para enchufe que brillaba por su falta de exactitud.
