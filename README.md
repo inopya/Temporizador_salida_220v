@@ -1,6 +1,13 @@
 # Temporizador con desconexion y salia a TRIAC para 220v
-**(error de 0.14 segundos de adelanto por hora temporizada)**
+**(error de aproximadamente 0.14 segundos de adelanto por hora temporizada)**
 
+
+## Funcionalidades
+    Presenta un menu al iniciar en el que podemos elegir entre dos modos:
+    1) TIMER con tiempo a dexconexion que muestra la cuenta atras hasta terminar la tarea 
+       mas una barra de progreso que tambien va disminuyendo su longitud conforme se agota el tiempo.
+    2) RELOJ, modo en que se matiene activa la salida y muestra el tiempo que lleva en marcha.
+       posibilidad de pausar o parar la actividad (solo en modo reloj)
 
 **Montaje final**
 
@@ -26,7 +33,7 @@ A pesar de no tener RTC contaba con una precision aceptable, aproximadamente un 
 
 
 En este caso, y debido a que se va a destinar exclusivamente a ser un temporizador, se usa Timer1 que al ser de 16 bits permite sobradamente realizar el conteo necesario de una sola vez y evita tener que disponer de un contador secundario como el caso de Timer2 (Ademas facilita mucho los ajustes de temporizacion).
-Esta nueva version de temporizador software basado en Timer1 consigue un error de 0.14 segundos de adelanto por hora temporizada.
+Esta nueva version de temporizador software basado en Timer1 consigue un error de aprox. 0.14 segundos de adelanto por hora temporizada.
 
 
 **Probando menus y aspecto visual**
@@ -62,9 +69,15 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 (en proceso)
 
 
-**NOTA**
+**NOTA1**
 Durante su funcionamiento el temporizador muestra en pantalla el voltaje de alimentacion de Arduino.
 Es un detalle heredado de la version original multiproposito que dispone de la opcion de funcionar con bateria interna y en el que conocer el estado de esta es de interes.
 Dado que no supone un problema ni de memoria ni de rendimiento (ni siquiera de hardware extra), se ha conservado dicha funcionalidad.
 Así mismo se puede apreciar en algunas fotos que el voltaje que muestra es muy proximo a 5 voltios (en las pruebas mientras arduino esta conectado por USB al ordenador) y en cambio en el montaje final la alimentacion que se muestra ronda los 4.10v. Esto es debido a que es la tension que se consigue con el viejo cargador de movil utilizado.
 En cualquier caso no supone ningun problema para Arduino el hecho de funcionar por debajo de los 5 voltios
+
+
+**NOTA2**
+Puede haber pequeñas diferencias entre las imagenes mostradas y el aspecto visual de los menus que genera el firmware de este repositorio, debido dichas fotografias han sido tomadas durante el proceso de ajuste del software.
+
+
