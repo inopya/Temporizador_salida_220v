@@ -39,6 +39,9 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 
 
 
+#Lista de materiales
+(en proceso)
+
 **Esquema de montaje**
 (en proceso)
 
