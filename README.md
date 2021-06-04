@@ -3,7 +3,7 @@
 
 ** Montaje final**
 
-![](./images/first_run.jpg)  ![](./images/first_theend.jpg)  ![](./images/timer_off.jpg)  
+![](./images/first_run.jpg)  ![](./images/first_theend.jpg)  ![](./images/theend.jpg)  
 
 
 
