@@ -79,7 +79,7 @@ Imagen derecha, temporizador en modo ejecucion, mostrando temporizacion y barra 
 
 
 
-**NOTA1**
+**NOTA1: **
 Durante su funcionamiento el temporizador muestra en pantalla el voltaje de alimentacion de Arduino.
 Es un detalle heredado de la version original multiproposito que dispone de la opcion de funcionar con bateria interna y en el que conocer el estado de esta es de interes.
 Dado que no supone un problema ni de memoria ni de rendimiento (ni siquiera de hardware extra), se ha conservado dicha funcionalidad.
@@ -87,7 +87,7 @@ Así mismo se puede apreciar en algunas fotos que el voltaje que muestra es muy 
 En cualquier caso no supone ningun problema para Arduino el hecho de funcionar por debajo de los 5 voltios
 
 
-**NOTA2**
+**NOTA2: **
 Puede haber pequeñas diferencias entre las imagenes mostradas y el aspecto visual de los menus que genera el firmware de este repositorio, debido a que dichas fotografias fueron tomadas durante el proceso de montaje hardware y ajuste del software. 
 (Queda pendiente actulizar algunas de ellas)
 
