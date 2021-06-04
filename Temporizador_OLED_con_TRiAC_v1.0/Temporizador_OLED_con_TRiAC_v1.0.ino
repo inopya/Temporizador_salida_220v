@@ -57,7 +57,7 @@
    Compilado para ARDUINO NANO R3 Old Bootloader  (con chip 328p)
 
    - MODO OPERATIVO - 
-   El Sketch usa 15868 bytes del espacio de almacenamiento de programa. (Serial desactivado)
+   El Sketch usa 15838 bytes del espacio de almacenamiento de programa. (Serial desactivado)
    Las variables Globales usan 364 bytes de RAM.
    
  
