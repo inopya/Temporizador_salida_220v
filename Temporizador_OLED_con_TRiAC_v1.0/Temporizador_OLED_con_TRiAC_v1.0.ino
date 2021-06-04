@@ -33,7 +33,7 @@
     y de dos pulsadores para programar tiempos y otros controles de uso.
 
     Presenta un menu al iniciar en el que podemos elegir entre dos modos:
-    1) TIMER con tiempo a dexconexion que muestra la cuenta atras hasta terminar la tarea 
+    1) TIMER con tiempo a desconexion que muestra la cuenta atras hasta terminar la tarea 
        mas una barra de progreso que tambien va disminuyendo su longitud conforme se agota el tiempo.
     2) RELOJ, modo en que se matiene activa la salida y muestra el tiempo que lleva en marcha.
        posibilidad de pausar o parar la actividad (solo en modo reloj)
