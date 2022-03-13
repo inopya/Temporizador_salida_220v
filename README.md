@@ -6,9 +6,20 @@
     Presenta un menu al iniciar en el que podemos elegir entre dos modos:
     1) TIMER con tiempo a desconexion que muestra la cuenta atras hasta terminar la tarea 
        mas una barra de progreso que tambien va disminuyendo su longitud conforme se agota el tiempo.
-    1a) Disponible una sonda de temperatura en funcion de cuya medida se puede controlar la salida
-	1b) Si se activa el uso de la sonda, se puede establecer una temperatura de precalentamiento 
+       
+    1a) Disponible una sonda de temperatura en funcion de cuya medida se puede controlar la salida.
+
+    1b) Si se activa el uso de la sonda, se puede establecer una temperatura de precalentamiento 
 	que debe alcanzarse antes de comenzar a temporizar.
+        El temporizador detecta si la sonda está o no conectadaconectada, de modo que permite activar su uso
+	solo si esta está presente.
+	Para la deteccion de la sonda se usa un sencillo "truco". La entrada anañogia A0 
+	usada para la conexion de la sonda tiene instalada una ressitencia pulldown de 1M (puede ser un valor superior)
+	de modo que si no se conecta la sonda NTC o estasecoloca de forma incorrecta, la entrada registrará 0 
+	(de ese modo "sabrá" que no hay sonda).
+	Con la sonda conectada (una NTC de 10k) el paralelo que forma con la resistencia de 1M ciertamente tendremos un pequeño error 
+	en la medida de la temperatura, pero lo podemos considerar despreciabe a efectos practicos (será menor al 1%) .
+	
 	
     2) RELOJ, modo en que se matiene activa la salida y muestra el tiempo que lleva en marcha.
        posibilidad de pausar o parar la actividad (solo en modo reloj)
