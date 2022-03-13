@@ -16,11 +16,7 @@
 
 
 	
-**Test iniciales...**
-
-![](./images/first_run.jpg)  ![](./images/first_theend.jpg) 
-
-
+**La necesidad...**
 
 
 Como siempre, cosas que surgen de la necesidad.
@@ -55,10 +51,16 @@ La salida a rele pasa a ser sustituida con TRIAC y optoacoplador. El LCD 16x2 se
 
 **Probando menus y aspecto visual**
 
+
 ![](./images/modo_prog.jpg)  ![](./images/modo_run.jpg)
 
 En la imagen de la izquierda, programando tiempos. 
 Imagen derecha, temporizador en modo ejecucion, mostrando temporizacion y barra de progreso de tarea.
+
+**Test iniciales...**
+![](./images/first_run.jpg)  ![](./images/first_theend.jpg) 
+
+primera prueba de funcionamiento
 
 
 ## Lista de materiales
