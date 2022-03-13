@@ -99,11 +99,11 @@ Partes creadas para adaptar el temposizador original a sus nuevas funcionalidade
 
 Algunas imagenes del aspecto de los menus
 
-![](./images/m_timer1.jpg)  ![](./images/m_manual.jpg)
-![](./images/m_sonda_off.jpg)  ![](./images/m_sonda_on.jpg)
-![](./images/m_prehot_off.jpg)  ![](./images/m_prehot_on.jpg)
-![](./images/m_prog.jpg)  
-![](./images/run_2.jpg)    ![](./images/run_3.jpg)
+![](./images/m_timer1.jpg)	![](./images/m_manual.jpg)	![](./images/m_sonda_off.jpg)
+
+![](./images/m_sonda_on.jpg)	![](./images/m_prehot_off.jpg)  ![](./images/m_prehot_on.jpg)
+
+![](./images/m_prog.jpg)	![](./images/run_2.jpg)		![](./images/run_3.jpg)
 
 
 **NOTA1:**
