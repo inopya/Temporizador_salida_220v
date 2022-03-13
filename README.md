@@ -87,14 +87,16 @@ Para la sonda NTC
 ![](./images/moc_triac.png)
 
 
-**IMAGENES PIEZAS 3D:**
+## IMAGENES PIEZAS 3D:
+
 Partes creadas para adaptar el temposizador original a sus nuevas funcionalidades
 
 ![](./images/3D_tapa_frente.png)  ![](./images/3D_tapa_tras.png)
 ![](./images/3D_lcd_cover_frente.png)  ![](./images/3D_lcd_cover_tras.png)
 ![](./images/3D_print_cover.jpg)  
 
-**IMAGENES MENUS:**
+## IMAGENES MENUS:
+
 Algunas imagenes del aspecto de los menus
 
 ![](./images/m_timer1.jpg)  ![](./images/m_manual.jpg)
@@ -117,3 +119,6 @@ Puede haber pequeñas diferencias entre las imagenes mostradas y el aspecto visu
 (Queda pendiente actulizar algunas de ellas)
 
 
+## ASPECTO FINAL
+
+ ![](./images/final_off.jpg)
