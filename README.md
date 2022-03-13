@@ -6,12 +6,16 @@
     Presenta un menu al iniciar en el que podemos elegir entre dos modos:
     1) TIMER con tiempo a desconexion que muestra la cuenta atras hasta terminar la tarea 
        mas una barra de progreso que tambien va disminuyendo su longitud conforme se agota el tiempo.
+    1a) Disponible una sonda de temperatura en funcion de cuya medida se puede controlar la salida
+	1b) Si se activa el uso de la sonda, se puede establecer una temperatura de precalentamiento que debe alcanzarse antes de comenzar a temporizar.
+	
     2) RELOJ, modo en que se matiene activa la salida y muestra el tiempo que lleva en marcha.
        posibilidad de pausar o parar la actividad (solo en modo reloj)
 
+	
 **Montaje final**
 
-![](./images/first_run.jpg)  ![](./images/first_theend.jpg)  ![](./images/theend.jpg)  
+![](./images/first_run.jpg)  ![](./images/first_theend.jpg) 
 
 
 
@@ -63,11 +67,14 @@ Imagen derecha, temporizador en modo ejecucion, mostrando temporizacion y barra 
 - 1x resistencia 470 Ohm
 - 1x resistencia 510 Ohm
 - 1x resistencia 1 K
+- 1x resistencia 1 M (o mayor)
 - 1x led rojo (reusado el original del temporizador canibalizado)
 - 1x pantalla OLED 128x64
 - cables, soldador...
 
-
+Para la sonda NTC
+- 1x NTC 10 K
+- 1x resistencia 10 K
 
 
 ## Esquema de montaje
@@ -77,6 +84,21 @@ Imagen derecha, temporizador en modo ejecucion, mostrando temporizacion y barra 
 ![](./images/moc_triac.png)
 
 
+**IMAGENES PIEZAS 3D:**
+Partes creadas para adaptar el temposizador original a sus nuevas funcionalidades
+
+![](./images/3D_tapa_frente.png)  ![](./images/3D_tapa_tras.png)
+![](./images/3D_lcd_cover_frente.png)  ![](./images/3D_lcd_cover_tras.png)
+![](./images/3D_print_cover.jpg)  
+
+**IMAGENES MENUS:**
+Algunas imagenes del aspecto de los menus
+
+![](./images/m_timer1.jpg)  ![](./images/m_manual.jpg)
+![](./images/m_sonda_off.jpg)  ![](./images/m_sonda_on.jpg)
+![](./images/m_prehot_off.jpg)  ![](./images/m_prehot_on.jpg)
+![](./images/m_prog.jpg)  
+![](./images/run_2.jpg)    ![](./images/run_3.jpg)
 
 
 **NOTA1:**
