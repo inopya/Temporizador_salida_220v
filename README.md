@@ -17,8 +17,9 @@
 	usada para la conexion de la sonda tiene instalada una ressitencia pulldown de 1M (puede ser un valor superior)
 	de modo que si no se conecta la sonda NTC o estasecoloca de forma incorrecta, la entrada registrará 0 
 	(de ese modo "sabrá" que no hay sonda).
-	Con la sonda conectada (una NTC de 10k) el paralelo que forma con la resistencia de 1M ciertamente tendremos un pequeño error 
-	en la medida de la temperatura, pero lo podemos considerar despreciabe a efectos practicos (será menor al 1%) .
+	Con la sonda conectada (una NTC de 10k) el paralelo que forma con la resistencia de 1M 
+	ciertamente nos dará un pequeño error en la medida de la temperatura, 
+	pero lo podemos considerar despreciabe a efectos practicos (será menor al 1%) .
 	
 	
     2) RELOJ, modo en que se matiene activa la salida y muestra el tiempo que lleva en marcha.
