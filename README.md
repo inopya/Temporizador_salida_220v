@@ -7,10 +7,13 @@
     1) TIMER con tiempo a desconexion que muestra la cuenta atras hasta terminar la tarea 
        mas una barra de progreso que tambien va disminuyendo su longitud conforme se agota el tiempo.
     1a) Disponible una sonda de temperatura en funcion de cuya medida se puede controlar la salida
-	1b) Si se activa el uso de la sonda, se puede establecer una temperatura de precalentamiento que debe alcanzarse antes de comenzar a temporizar.
+	1b) Si se activa el uso de la sonda, se puede establecer una temperatura de precalentamiento 
+	que debe alcanzarse antes de comenzar a temporizar.
 	
     2) RELOJ, modo en que se matiene activa la salida y muestra el tiempo que lleva en marcha.
        posibilidad de pausar o parar la actividad (solo en modo reloj)
+
+
 
 	
 **Montaje final**
