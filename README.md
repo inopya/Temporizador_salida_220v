@@ -58,9 +58,11 @@ En la imagen de la izquierda, programando tiempos.
 Imagen derecha, temporizador en modo ejecucion, mostrando temporizacion y barra de progreso de tarea.
 
 **Test iniciales...**
+
 ![](./images/first_run.jpg)  ![](./images/first_theend.jpg) 
 
 primera prueba de funcionamiento
+
 
 
 ## Lista de materiales
