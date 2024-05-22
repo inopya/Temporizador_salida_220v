@@ -65,7 +65,7 @@
    Las variables Globales usan 630 bytes de RAM.
 
    - MODO OPERATIVO - 
-   El Sketch usa 19664 bytes del espacio de almacenamiento de programa. (usando serial apra debug)
+   El Sketch usa 19664 bytes del espacio de almacenamiento de programa.
    Las variables Globales usan 458 bytes de RAM.
    
  
